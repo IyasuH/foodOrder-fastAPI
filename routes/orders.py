@@ -7,8 +7,8 @@ import motor.motor_asyncio
 import os, sys
 from typing import List
 
-mongoURL = os.environ.get("mongoURL")
-mongoPassword = os.environ.get("mongoPassword")
+mongoURL = os.environ.get("MongoURL")
+mongoPassword = os.environ.get("MongoPassword")
 
 mongoURL_P= mongoURL.replace('<password>', mongoPassword)
 
